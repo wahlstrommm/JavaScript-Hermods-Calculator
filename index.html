@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+	<title>Javascript del 3 miniräknare Magnus Vahlström</title><!-- title-->
+	<meta charset="utf-8"><!-- meta-->
+	<link rel="stylesheet" type="text/css" href="style.css"><!-- länkar min css-->
+</head>
+<body>
+	<h1>Javascript del 3</h1><!-- rubrik-->
+	<form><!-- min fprm börjar här-->
+	värde 1:<input type="number" id="value1"><!--ruta 1 där jag skirver in nummert-->
+	värde 2:<input type="number" id="value2"><!-- ruta 2 där jag skriver in nummert-->
+	operator:
+	<select id="operator">
+	<option value="add">addera</option> <!-- addera-->
+	<option value="sub">subtrahera</option><!-- minus-->
+	<option value="div">dividera</option><!-- dela-->
+	<option value="mul">multiplicera</option><!-- multiplicera-->
+	</select>
+	<button type="button" onclick="calc()">räkna ut</button><!-- knapp som har kommandot att räkna ut när man klickar på den-->
+	</form>
+</body>
+<div id=resultat></div> <!-- visar resultatet under glömde bort att han vill ha en alert ruta-->
+<script src="main.js"></script><!--länkar mitt script, väljer att länka så det visar att jag kan det också-->
+</html>
